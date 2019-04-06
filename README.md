@@ -2,6 +2,7 @@
 Aplicação feita para o processo seletivo para a posição de Desenvolvedor Back End GOA na Involves.   
 
 Um código em Java que lê os dados de um arquivo csv e os adiciona a um banco de dados com tabelas multi-tenant e disponibiliza endpoints pra que eles sejam visualizados e pesquisados.
+
 Ferramentas utilizadas: Java, Maven, MySQL, JPA, Hibernate, Spring e Curl.
 
 Alguns códigos foram utilizados como referência, estudo, base e tutoriais para a criação deste, mas foram alterados ao longo do periodo em que eu utilizei eles.
@@ -10,10 +11,15 @@ Por um quesito de facilidade na hora de visualizar os dados, eu mantive a acesib
 
 ENDPOINTS
 localhost:8080/all 			    - Expõe todos os valores do Banco de Dados
+
 localhost:8080/nome/valor   - Expõe todas as linhas com o nome equivalente a "valor"
+
 localhost:8080/cidade/valor - Expõe todas as linhas com a cidade equivalente a "valor"
+
 localhost:8080/cep/valor	  - Expõe todas as linhas com o cep equivalente a "valor"
+
 localhost:8080/tenant/valor - Expõe todas as linhas com o tenant equivalente a "valor"
+
 localhost:8080/upload		    - Le arquivos pelo comando curl -F data=@Path, copia o arquivo para a pasta data dentro do aplicativo e adiciona os dados ao Banco 
 
 NOTAS IMPORTANTES
