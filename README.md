@@ -15,6 +15,7 @@ Por um quesito de facilidade na hora de visualizar os dados, eu mantive a acesib
 
 
 ENDPOINTS
+
 localhost:8080/all 			    - Expõe todos os valores do Banco de Dados
 
 localhost:8080/nome/valor   - Expõe todas as linhas com o nome equivalente a "valor"
